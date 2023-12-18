@@ -1,11 +1,11 @@
-Feature:Get User
+Feature:Delete User
   Background:
     Given url baseURL
     Given header Accept = 'application/json'
-    And print "Get User Request"
+    And print "Delete User by username"
 
-  Scenario: get user by username
+  Scenario: delete user by username
     When path "/user/raflirhn"
-    And method get
+    And method delete
     Then status 200
     And print response

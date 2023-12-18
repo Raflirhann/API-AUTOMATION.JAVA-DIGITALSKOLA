@@ -13,13 +13,13 @@ Feature: POST Test Swagger
     Then status 200
     And print response
 
-  Scenario: get user by username
+  Scenario: Get user by username
     When path "/user/raflirhn"
     When method get
     And status 200
     Then print response
 
-  Scenario: delete user by username
+  Scenario: Delete user by username
     When path "/user/raflirhn"
     When method delete
     And status 200

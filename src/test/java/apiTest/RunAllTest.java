@@ -12,7 +12,7 @@ public class RunAllTest {
         return Karate.run("postGetDel").relativeTo(getClass());
     }
 
-
+//    // Run single with tag
 //    @Karate.Test
 //    public Karate runPostWithTag() {
 //        // postRequest is name feature files
@@ -23,5 +23,11 @@ public class RunAllTest {
 //    public Karate runGetWithTag() {
 //        // postRequest is name feature files
 //        return Karate.run("getRequest").relativeTo(getClass());
+//    }
+//
+//    @Karate.Test
+//    public Karate runDelWithTag() {
+//        // postRequest is name feature files
+//        return Karate.run("delRequest").relativeTo(getClass());
 //    }
 }
